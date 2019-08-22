@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,56 +16,64 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+display: block;
 }
 body {
-	line-height: 1;
+line-height: 1;
 }
 ol, ul {
-	list-style: none;
+list-style: none;
 }
 blockquote, q {
-	quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+content: '';
+content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+border-collapse: collapse;
+border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+height: 100%;
+font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+font-family: 'Bangers', cursive;
+letter-spacing: 1px;
+margin-bottom: 15px;
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox
 
 This is the code for the index.html file */
+
+
+
+
+
+/* GENERAL CODE with specifics FOR DESKTOP VERSION */
+
+
 
 .container {
 width: 900px; 
@@ -94,30 +102,30 @@ width: 200px;
 }
 
 .logo3 {
-    display: none;
+display: none;
 }
 
 .logo2 {
-    margin-right: 20px;
-    margin-top: 20px;
-    height: 35px;
-    width: 200px;
-    display: none;
-    }
+margin-right: 20px;
+margin-top: 20px;
+height: 35px;
+width: 200px;
+display: none;
+}
 
 h1 {
 font-size: 80px;	
 }
 
 .innovation {
-	display: flex;
-	margin-top: 30px;
-	justify-content: space-around; 
-	}
+display: flex;
+margin-top: 30px;
+justify-content: space-around; 
+}
 
 .innoandbutton {
-	margin-top: 50px;
-	text-align: center;
+margin-top: 50px;
+text-align: center;
 }
 button {
 margin-left: 30px;
@@ -125,13 +133,13 @@ width: 200px;
 height: 40px;
 border: 1px solid black;
 background: white;
-	}
-	
+}
+
 .content {
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
-	margin-top: 30px;
-	margin-bottom: 30px;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 h2 {
@@ -146,50 +154,50 @@ margin-top: 35px;
 }
 
 .content-first-left{
-	width: 440px;
-	height: 100px;
+width: 440px;
+height: 100px;
 
 }
 
 .content-first-right{
-	width: 440px;
-	height: 100px;
-	
+width: 440px;
+height: 100px;
+
 }
 
 .bottomcontent {
-	display: flex;
-	justify-content: space-around;
-	}
+display: flex;
+justify-content: space-around;
+}
 
-	.content-second {
-		margin-top: 30px;
-		width: 290px;
-		height: 150px;
-	}
+.content-second {
+margin-top: 30px;
+width: 290px;
+height: 150px;
+}
 
 
 .middle-img{
- display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
- footer {
-	margin-top: 60px;
+footer {
+margin-top: 60px;
 }
 
 .copyright {
-	text-align: center;
-	margin-top:35px;
-	margin-bottom: 35px;
+text-align: center;
+margin-top:35px;
+margin-bottom: 35px;
 }
 
 
 
 
 
-/* TABLET VERSION */
+/* TABLET VERSION CODE */
 
 
 
@@ -202,90 +210,90 @@ margin-right: 0px;
 }   
 
 .logo1 {
-    display: none;
-    margin-bottom: 20px;
-    }
+display: none;
+margin-bottom: 20px;
+}
 
 .justforlogo2 {
-    display:flex;
-    justify-content: center;
+display:flex;
+justify-content: center;
 }
 
 .logo2 {
-        display: block;
+display: block;
 
-        }
+}
 
 .logo3 {
-    display:none;
+display:none;
 }
-        
+
 nav a {
 margin-top: 40px;
 margin-bottom: 30px;
 }
 
 .innovation {
-    display: flex;
-    margin-top: 0px; 
-    padding-bottom: 30px;
+display: flex;
+margin-top: 0px; 
+padding-bottom: 30px;
 }
 
 .snipet {
-    display: none;
-    justify-content: center;
+display: none;
+justify-content: center;
 }
 
 .content {
- width: 95%;
- padding-bottom: 40px;
- border-top: 2px solid black;
- border-bottom: 2px solid black;
- margin-left: 10px;
- 
+width: 95%;
+padding-bottom: 40px;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+margin-left: 10px;
+
 }
 
 .topcontent {
-    margin-bottom: 20px; 
-    
+margin-bottom: 20px; 
+
 }
 
 .content-first-left{
-	width: 360px;
-    height: 100px;
-    text-align: left;
+width: 360px;
+height: 100px;
+text-align: left;
 
 }
 
 .content-first-right{
-	width: 360px;
-    height: 100px;
-	text-align: left;
+width: 360px;
+height: 100px;
+text-align: left;
 }
 
 .middle-img{
-    display: block;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 45px;
-     width: 740px;
-   }
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 45px;
+width: 740px;
+}
 
 .bottomcontent {
-	display: flex;
-	justify-content: space-around;
-	}
+display: flex;
+justify-content: space-around;
+}
 
-	.content-second {
-		margin-top: 30px;
-		width: 215px;
-        height: 150px; 
-        text-align: left;
-	}
+.content-second {
+margin-top: 30px;
+width: 215px;
+height: 150px; 
+text-align: left;
+}
 
-    footer {
-    margin-left: 15px;
-    }
+footer {
+margin-left: 15px;
+}
 
 
 
@@ -293,144 +301,150 @@ margin-bottom: 30px;
 
 
 
-/*  MOBILE VERSION */
+
+
+/*  MOBILE VERSION CODE */
 
 
 
 @media (max-width: 500px) {
 
 .container {
- width: 500px;
+width: 500px;
 }
 
 
 nav {
-    flex-direction: column;
-    align-items: center;   
-    justify-content: center;
-    }
+flex-direction: column;
+align-items: center;   
+justify-content: center;
+}
 
 .logo2 {
-    display: none;
+display: none;
 }
-    
+
 .logo3 {
-    display: block;
-    margin-bottom: 20px;
-    
-    }
+display: block;
+margin-bottom: 20px;
+
+}
 
 
-    nav a {	  
-    padding: 20px;
-    margin: 0px;
-    border-top: 1px solid black;
-    color: lightgrey;
-    text-align: center;
-    font-size: 23px;
-    }
+nav a {	  
+padding: 20px;
+margin: 0px;
+border-top: 1px solid black;
+color: lightgrey;
+text-align: center;
+font-size: 23px;
+}
 
-    .speciala {
-        padding-bottom: 0px;
-    }
-    
+.speciala {
+padding-bottom: 0px;
+}
+
 
 .middle-img{
-    display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 450px;
-   }
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 450px;
+}
 
-   h1 {
-    font-size: 80px;	
-    }
-    
-    .innovation {
-        display: flex;
-        margin-top: 20px; 
-        border-top: 1px solid black;
-        }
-    
-    .innoandbutton {
-        margin-top: 50px;
-        text-align: center;
-        justify-content: center;
-    }
-    button {
-    margin-left: 30px;
-    width: 200px;
-    height: 40px;
-    border: 1px solid black;
-    background: white;
-    margin-bottom: 30px;
-    justify-content: center;
-    font-size: 18px;
-        }
-        
-    .content {
-        width: 90%;
-        border-top: 2px solid black;
-        border-bottom: 1px solid black;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 10px;
-        padding-bottom: 30px;
-    }
-    
-    .topcontent {
-    flex-direction: column;
-    margin-bottom: 15px;
-    margin-top: 35px;
-    
-    }
-    
-    .content-first-left{
-        width: 440px;
-        height: 100px;
-        justify-content: center;
-        margin-left: 10px;
-        margin-bottom: 25px;
-    
-    }
-    
-    .content-first-right{
-        width: 440px;
-        height: 100px;
-        justify-content: center;
-        margin-left: 10px;
-        
-    }
-    
-    .bottomcontent {
-        flex-direction: column;
-        }
-    
-        .content-second {
-            width: 440px;
-            height: 100px;
-            justify-content: center;
-            margin-left: 10px;
-        }
-    
+h1 {
+font-size: 80px;	
+}
 
-        h2 {
-            text-align: left;
-            font-size:18px;
-            }
+.innovation {
+display: flex;
+margin-top: 20px; 
+border-top: 1px solid black;
+}
 
-     footer {
-        margin-left: 15px;
-        margin-top: 40px;
-        justify-content: center;
-    }
-    
-    .copyright {
-        text-align: center;
-        margin-top:35px;
-        margin-bottom: 35px;
-        justify-content: center;
-    }
+.innoandbutton {
+margin-top: 50px;
+text-align: center;
+justify-content: center;
+}
+button {
+margin-left: 30px;
+width: 200px;
+height: 40px;
+border: 1px solid black;
+background: white;
+margin-bottom: 30px;
+justify-content: center;
+font-size: 18px;
+}
+
+.content {
+width: 90%;
+border-top: 2px solid black;
+border-bottom: 1px solid black;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 10px;
+padding-bottom: 30px;
+}
+
+.topcontent {
+flex-direction: column;
+margin-bottom: 15px;
+margin-top: 35px;
+
+}
+
+.content-first-left{
+width: 440px;
+height: 100px;
+justify-content: center;
+margin-left: 10px;
+margin-bottom: 25px;
+
+}
+
+.content-first-right{
+width: 440px;
+height: 100px;
+justify-content: center;
+margin-left: 10px;
+
+}
+
+.bottomcontent {
+flex-direction: column;
+}
+
+.content-second {
+width: 440px;
+height: 100px;
+justify-content: center;
+margin-left: 10px;
+}
+
+
+h2 {
+text-align: left;
+font-size:18px;
+}
+
+footer {
+margin-left: 15px;
+margin-top: 40px;
+justify-content: center;
+}
+
+.copyright {
+text-align: center;
+margin-top:35px;
+margin-bottom: 35px;
+justify-content: center;
+}
 
 
 }
+
+
+
+
